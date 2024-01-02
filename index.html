@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slack Login</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="side1"></div>
+      <div class="side2">
+        <span class="title">
+          <img src="./image/icon.png" alt="Slack" />
+          <h1>Login to your Account</h1>
+          <p>See what is going on with your business</p>
+        </span>
+        <div class="social">
+          <span href="#" class="google">
+            <img src="./image/google.png" alt="Google" />
+            <span>Continue with Google</span>
+          </span>
+        </div>
+
+        <p class="or">------------- or Sign in with Email -------------</p>
+        <form method="post">
+          <span>
+            <label for="username">Username</label>
+            <input
+              type="text"
+              name="username"
+              placeholder="email@gmail.com"
+              required
+            />
+          </span>
+          <span>
+            <label for="password">Password</label>
+
+            <input
+              type="password"
+              name="password"
+              placeholder="Password"
+              value="password"
+              required
+            />
+          </span>
+          <div class="option">
+            <span>
+              <input type="checkbox" name="remember" id="remember" />
+              <label for="remember">Remember Me</label>
+            </span>
+
+            <a href="#">Forgot password?</a>
+          </div>
+          <input type="submit" value="Logn in" class="login"/>
+        </form>
+        <p class="register">
+          Don't have an account? <a href="#">Create one</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
